@@ -19,6 +19,8 @@ return new class extends Migration
             $table->string("address");
 
             $table->string("mobile");
+            $table->string("image");
+            
             $table->timestamps();
         });
     }
